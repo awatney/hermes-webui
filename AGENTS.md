@@ -5,6 +5,14 @@ repository. Keep it project-specific and safe to publish. Do not put personal
 machine setup, private network details, credentials, tokens, or local-only
 workflow notes here.
 
+## Git repository boundary
+
+Before any commit, push, branch publication, or PR, verify the repo root,
+current branch, and `git remote -v`. For Adam's local WebUI work, use Adam's
+fork/internal repository as the default target. Do not push to or open PRs
+against upstream/vendor repositories unless Adam explicitly asks for that exact
+upstream contribution.
+
 ## Read first
 
 Before making changes, read:
